@@ -125,7 +125,7 @@ body{
 }
 /* Hero Section */
 .hero{
-    background: url(/images/hero.jpg) left top no-repeat;
+    background: url(../images/hero.jpg) left top no-repeat;
     color: var(--color-white);
     background-size: cover;
     padding: 10rem 0;
@@ -180,4 +180,9 @@ body{
 .hire-us .box img{
     width: 5.5rem;
     margin-bottom: 1rem;
+}
+
+/* About us */
+.about .heading h2, .about .heading p{
+    color: var(--color-black);
 }
