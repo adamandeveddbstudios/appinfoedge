@@ -83,7 +83,8 @@ body{
 }
 .heading p{
     color: var(--color-light);
-    font-weight: 300;
+    font-weight: var(--medium);
+    font-size: 2.4rem;
 }
 
 /* Site header */
@@ -141,6 +142,8 @@ body{
 }
 .hero .heading p{
     margin-bottom: 7.2rem;
+    font-weight: var(--light);
+    font-size: 2rem;
 }
 .hero .cta-box{
     background-color: rgba(36, 36, 36, 0.455);
